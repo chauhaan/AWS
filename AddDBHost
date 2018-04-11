@@ -15,4 +15,4 @@ do
   sed -i "s/localhost/$1/" /var/www/webapp/$i
 done
 
-mysql -h $host -u root -D blog --password=root12345 < /home/ec2-user/AWS/blog.sql
+mysql -h $1 -u root -D blog --password=root12345 < /home/ec2-user/AWS/blog.sql
