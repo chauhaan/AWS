@@ -1,0 +1,16 @@
+#!/bin/bash
+
+file="create.php
+dashboard.php
+db.php
+delete.php
+index.php
+loginit.php
+update.php
+updateartical.php
+view.php"
+
+for i in $file
+do
+  sed -i "s/localhost/$1/" /var/www/webapp/$i
+done
