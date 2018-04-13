@@ -8,3 +8,5 @@
 
 
 #Web Application is accessible by both http and https.
+
+#Use username=demo and password=demo to login into webapplication.
